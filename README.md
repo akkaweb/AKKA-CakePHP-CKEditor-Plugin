@@ -45,7 +45,7 @@ Note: When installing with either manual download or Git Clone and CakePHP compl
 ```php
 Plugin::load('AkkaCKEditor', ['bootstrap' => false, 'routes' => true]);
 ```
-
+ 
 2. Load the plugin's Helper in `AppController.php` 
 
 ```php
