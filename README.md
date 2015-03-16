@@ -5,6 +5,7 @@ A CakePHP 3.x Plugin to allow the integration of CKEditor into an application.
 ## Requirements #######################################################
 - CakePHP 3.x with Auth component correctly setup. Refer to http://book.cakephp.org/3.0/en/controllers/components/authentication.html for setup
 - PHP 5.4.6+
+
 ## Included #######################################################
 - CKEditor Helper
 
