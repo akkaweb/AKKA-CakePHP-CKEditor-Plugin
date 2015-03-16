@@ -1,15 +1,7 @@
 {
-    "name": "akkaweb/cakephp-ckeditor",
-    "description": "CKEditor plugin for CakePHP 3",
+    "name": "your-name-here/AkkaCKEditor",
+    "description": "AkkaCKEditor plugin for CakePHP",
     "type": "cakephp-plugin",
-    "keywords": ["cakephp", "cakephp3", "ckeditor"],
-    "license": "MIT",
-    "authors": [
-	{
-	    "name": "Andre Santiago",
-	    "email": "admin@akkaweb.com"
-	}
-    ],
     "require": {
         "php": ">=5.4",
         "cakephp/cakephp": "3.0.x-dev"

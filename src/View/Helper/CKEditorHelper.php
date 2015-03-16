@@ -83,14 +83,10 @@ class CKEditorHelper extends Helper {
         return '<script src="'.$cdn_file.'"></script>';
     }
 
-    public function replace($fields = ['editor1']) {
-        $_fields = '';
-        foreach($fields as $field){
-            $_fields .= "CKEDITOR.replace( '{$field}' );\n";
-        }
+    public function replace($field = 'editor1') {
         return <<<EOT
             <script>
-                {$_fields}
+                CKEDITOR.replace( '{$field}' );
             </script>
 EOT;
     }
