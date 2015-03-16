@@ -14,7 +14,7 @@ A CakePHP 3.x Plugin to allow the integration of CKEditor into an application.
 
 ##### Composer (Best Choice)
 
-1. Add the following to your `composer.json` located in the root of your application, in the `require` section . ie. `/var/www/domain.com/composer.json`
+* Add the following to your `composer.json` located in the root of your application, in the `require` section . ie. `/var/www/domain.com/composer.json`
 
 ```php
 "require": {
@@ -22,7 +22,7 @@ A CakePHP 3.x Plugin to allow the integration of CKEditor into an application.
 }
 ```
 
-2. Run the following at the root of your application
+* Run the following at the root of your application
 
 ```
 sudo php composer.phar update
