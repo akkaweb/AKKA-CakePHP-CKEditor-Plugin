@@ -69,7 +69,7 @@ class AppController extends Controller {
 
 ##### Helper Template File Setup
 
-- Add `<?php echo $this->CKEditor->loadJs(); ?>` inside the application `default.ctp` file right before `</head>` tag. This will allow CKEditor to be available througout the application. I can also be loaded inside the view as the first line or before the `textarea` where you want to apply the CKEditor. 
+- Add `<?php echo $this->CKEditor->loadJs(); ?>` inside the application `default.ctp` file right before `</head>` tag. This will allow CKEditor to be available througout the application. It can also be loaded inside the template file as the first line or before the `textarea` where you want to apply the CKEditor. 
 
 ##### CKEditor.replace
 
