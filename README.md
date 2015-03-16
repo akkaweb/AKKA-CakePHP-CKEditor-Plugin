@@ -65,12 +65,7 @@ class AppController extends Controller{
 
 Insert the following code immediately after the textarea you want CKEditor applied
 ````
-Optional Settings Array
-* id 	-> Link id
-* class -> Link class
-* title -> Link title
-* style -> Any html style
-* label -> Hyperlink text
+// replace(field-name)  -> replace take field name
 	
 <?php echo $this->Form->input('body'); ?> // Example
 <?php echo $this->CKEditor->replace('body'); ?>
