@@ -5,6 +5,7 @@ A CakePHP 3.x Plugin to allow the integration of CKEditor into an application.
 ## Requirements #######################################################
 - CakePHP 3.x
 - PHP 5.4.6+
+- CKEditor - Auto-loaded by this Helper using CKEditor's CDN http://cdn.ckeditor.com/
 
 ## Included #######################################################
 - CKEditor Helper
