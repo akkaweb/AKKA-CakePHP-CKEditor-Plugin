@@ -1,6 +1,6 @@
 {
-    "name": "your-name-here/AkkaCKEditor",
-    "description": "AkkaCKEditor plugin for CakePHP",
+    "name": "akkaweb/AkkaCKEditor",
+    "description": "CKEditor plugin for CakePHP 3",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.4",
