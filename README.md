@@ -55,17 +55,27 @@ class AppController extends Controller{
 }
 ```
 
+Optionally you are able to choose the Version and Distribution of the CKEditor to be loaded. See more details at http://cdn.ckeditor.com/
+```php
+class AppController extends Controller {
+	public $helpers = ['AkkaCKEditor.CKEditor' => [
+		'version' => '4.4.7', // Default Option
+		'distribution' => 'full' // Default Option / Other options => 'basic', 'standard', 'standard-all', 'full-all'
+	]];
+}
+```
+
 ## Usage #######################################################
 
 ##### Helper Template File Setup
 
-- Add `<?php echo $this->CKEditor->loadJs(); ?>` inside the application `default.ctp` file right before `</head> or inside the view as the first line or before the `textarea` where you want to apply the CKEditor. 
+- Add `<?php echo $this->CKEditor->loadJs(); ?>` inside the application `default.ctp` file right before `</head>` tag. This will allow CKEditor to be available througout the application. I can also be loaded inside the view as the first line or before the `textarea` where you want to apply the CKEditor. 
 
 ##### CKEditor.replace
 
 Insert the following code immediately after the textarea you want CKEditor applied
 ````
-// replace(field-name)  -> replace take field name
+// replace(field-name)  -> replace takes field_name and can be used multiple times throughout your application
 	
 <?php echo $this->Form->input('body'); ?> // Example
 <?php echo $this->CKEditor->replace('body'); ?>
