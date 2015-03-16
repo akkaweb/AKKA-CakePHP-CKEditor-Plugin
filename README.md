@@ -40,13 +40,13 @@ Note: When installing with either manual download or Git Clone and CakePHP compl
 
 ## Configuration #######################################################
 
-1. Load the plugin in your application's `bootstrap.php` file:
+* Load the plugin in your application's `bootstrap.php` file:
 
 ```php
 Plugin::load('AkkaCKEditor', ['bootstrap' => false, 'routes' => true]);
 ```
  
-2. Load the plugin's Helper in `AppController.php` 
+* Load the plugin's Helper in `AppController.php` 
 
 ```php
 class AppController extends Controller{
@@ -55,7 +55,7 @@ class AppController extends Controller{
 }
 ```
 
-Optionally you are able to choose the Version and Distribution of the CKEditor to be loaded. See more details at http://cdn.ckeditor.com/
+* Optionally you are able to choose the Version and Distribution of the CKEditor to be loaded. See more details at http://cdn.ckeditor.com/
 ```php
 class AppController extends Controller {
 	public $helpers = ['AkkaCKEditor.CKEditor' => [
