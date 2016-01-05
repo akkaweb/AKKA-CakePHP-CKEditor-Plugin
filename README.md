@@ -2,6 +2,9 @@
 
 A CakePHP 3.x Plugin to allow the integration of CKEditor into an application.
 
+[![Total Downloads](https://poser.pugx.org/akkaweb/cakephp-ckeditor/downloads.svg)](https://packagist.org/packages/akkaweb/cakephp-ckeditor)
+[![License](https://poser.pugx.org/akkaweb/cakephp-ckeditor/license.svg)](https://packagist.org/packages/akkaweb/cakephp-ckeditor)
+
 ## Requirements #######################################################
 - CakePHP 3.x
 - PHP 5.4.6+
